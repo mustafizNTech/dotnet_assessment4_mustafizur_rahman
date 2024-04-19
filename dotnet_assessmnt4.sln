@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpgAPI", "rpgAPI\rpgAPI.csproj", "{1391B5B8-E681-4546-8494-19FEE0A8AFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpgAPITest", "rpgAPITest\rpgAPITest.csproj", "{025BE65A-F12B-4EFB-9709-C074C6DA9BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1391B5B8-E681-4546-8494-19FEE0A8AFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1391B5B8-E681-4546-8494-19FEE0A8AFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1391B5B8-E681-4546-8494-19FEE0A8AFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1391B5B8-E681-4546-8494-19FEE0A8AFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025BE65A-F12B-4EFB-9709-C074C6DA9BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025BE65A-F12B-4EFB-9709-C074C6DA9BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025BE65A-F12B-4EFB-9709-C074C6DA9BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025BE65A-F12B-4EFB-9709-C074C6DA9BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

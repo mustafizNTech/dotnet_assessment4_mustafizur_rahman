@@ -1,0 +1,152 @@
+SF:/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/Program.cs
+FN:3,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:4,0
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:12,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:26,0
+DA:28,0
+BRDA:15,76,0,0
+BRDA:15,76,1,0
+LF:16
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/Service/CharacterService.cs
+FN:19,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::GetAllCharacter()
+FNDA:0,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::GetAllCharacter()
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+FN:28,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::AddCharacter(rpgAPI.Model.Character)
+FNDA:0,rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::AddCharacter(rpgAPI.Model.Character)
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+FN:40,rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character> rpgAPI.Service.CharacterService::GetCharacterById(System.Int32)
+FNDA:0,rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character> rpgAPI.Service.CharacterService::GetCharacterById(System.Int32)
+DA:41,0
+DA:42,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:54,0
+DA:56,0
+DA:57,0
+BRDA:46,49,0,0
+BRDA:46,49,1,0
+FN:11,System.Void rpgAPI.Service.CharacterService::.cctor()
+FNDA:0,System.Void rpgAPI.Service.CharacterService::.cctor()
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+LF:31
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/Model/Character.cs
+FN:9,System.Int32 rpgAPI.Model.Character::get_Id()
+FNDA:0,System.Int32 rpgAPI.Model.Character::get_Id()
+DA:10,0
+FN:11,System.String rpgAPI.Model.Character::get_Name()
+FNDA:0,System.String rpgAPI.Model.Character::get_Name()
+DA:12,0
+FN:13,System.Int32 rpgAPI.Model.Character::get_HitPoint()
+FNDA:0,System.Int32 rpgAPI.Model.Character::get_HitPoint()
+DA:14,0
+FN:15,System.Int32 rpgAPI.Model.Character::get_Strength()
+FNDA:0,System.Int32 rpgAPI.Model.Character::get_Strength()
+DA:16,0
+FN:17,System.Int32 rpgAPI.Model.Character::get_Defense()
+FNDA:0,System.Int32 rpgAPI.Model.Character::get_Defense()
+DA:18,0
+FN:19,System.Int32 rpgAPI.Model.Character::get_Intelligence()
+FNDA:0,System.Int32 rpgAPI.Model.Character::get_Intelligence()
+DA:20,0
+FN:21,rpgAPI.Model.RPGClass rpgAPI.Model.Character::get_CharacterClass()
+FNDA:0,rpgAPI.Model.RPGClass rpgAPI.Model.Character::get_CharacterClass()
+DA:22,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/Model/ServiceResponse.cs
+FN:10,T rpgAPI.Model.ServiceResponse`1::get_Data()
+FNDA:0,T rpgAPI.Model.ServiceResponse`1::get_Data()
+DA:11,0
+FN:12,System.Boolean rpgAPI.Model.ServiceResponse`1::get_Success()
+FNDA:0,System.Boolean rpgAPI.Model.ServiceResponse`1::get_Success()
+DA:13,0
+FN:14,System.String rpgAPI.Model.ServiceResponse`1::get_Message()
+FNDA:0,System.String rpgAPI.Model.ServiceResponse`1::get_Message()
+DA:15,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/Controller/CharacterController.cs
+FN:22,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::GetCharacter()
+FNDA:0,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::GetCharacter()
+DA:23,0
+DA:24,0
+DA:25,0
+FN:29,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character>> rpgAPI.Controller.CharacterController::GetId(System.Int32)
+FNDA:0,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character>> rpgAPI.Controller.CharacterController::GetId(System.Int32)
+DA:30,0
+DA:31,0
+DA:32,0
+FN:35,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::PostCharacter(rpgAPI.Model.Character)
+FNDA:0,Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::PostCharacter(rpgAPI.Model.Character)
+DA:36,0
+DA:37,0
+DA:38,0
+FN:15,System.Void rpgAPI.Controller.CharacterController::.ctor(rpgAPI.Service.ICharacterService)
+FNDA:0,System.Void rpgAPI.Controller.CharacterController::.ctor(rpgAPI.Service.ICharacterService)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
