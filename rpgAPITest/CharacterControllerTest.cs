@@ -50,10 +50,11 @@ namespace rpgAPI.Controller.Tests
         public void GetId_ReturnsCharacterById()
         {
             // Arrange
-            var returnObj = 
-                    new Character(){
-                    Name = "Mark Z.",
-                    Id =1
+            var returnObj =
+                    new Character()
+                    {
+                        Name = "Mark Z.",
+                        Id = 1
                     };
 
             var serviceResponse = new ServiceResponse<Character>()
@@ -69,15 +70,8 @@ namespace rpgAPI.Controller.Tests
             var result = controller.GetId(1);
 
             // Assert
-        //    Assert.IsType<Character>(result);
-           Assert.NotNull(result);
-        //    Microsoft.AspNetCore.Mvc.ActionResult`1[
-        //     [rpgAPI.Model.ServiceResponse`1[
-        //         [rpgAPI.Model.Character, rpgAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
-        //         ], rpgAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
-        //         ]
-            // var character = Assert.IsType<Character>(okResult.Value);
-            // Assert.Equal("Alice", character.Name);
+            Assert.NotNull(result);
+
         }
 
         [Fact]
@@ -88,12 +82,13 @@ namespace rpgAPI.Controller.Tests
             var serviceResponse = fixture.Create<ServiceResponse<Character>>();
             var mockService = new Mock<ICharacterService>();
 
-            mockService.Setup(x=>x.GetCharacterById(0)).Returns(serviceResponse);
+            mockService.Setup(x => x.GetCharacterById(0)).Returns(serviceResponse);
 
             var charController = new CharacterController(mockService.Object);
 
             var result = charController.GetId(0);
 
+            // Assert
             Assert.NotNull(result);
 
         }

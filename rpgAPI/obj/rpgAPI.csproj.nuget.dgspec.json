@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj": {}
+    "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj": {}
   },
   "projects": {
-    "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj": {
+    "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj",
+        "projectUniqueName": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj",
         "projectName": "rpgAPI",
-        "projectPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj",
+        "projectPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj",
         "packagesPath": "/home/knoldus/.nuget/packages/",
-        "outputPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/obj/",
+        "outputPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/knoldus/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

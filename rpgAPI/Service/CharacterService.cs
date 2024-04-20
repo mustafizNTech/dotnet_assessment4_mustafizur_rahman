@@ -26,9 +26,9 @@ namespace rpgAPI.Service
         }
 
         public ServiceResponse<List<Character>> AddCharacter(Character newCharacter)
-        { 
-             _characterList.Add(newCharacter);
-            
+        {
+            _characterList.Add(newCharacter);
+
             var serviceResponse = new ServiceResponse<List<Character>>()
             {
                 Data = _characterList
@@ -39,7 +39,7 @@ namespace rpgAPI.Service
 
         public ServiceResponse<Character> GetCharacterById(int id)
         {
-            var character = _characterList.FirstOrDefault(c=>c.Id==id);
+            var character = _characterList.FirstOrDefault(c => c.Id == id);
 
             var serviceResponse = new ServiceResponse<Character>();
 
@@ -55,7 +55,24 @@ namespace rpgAPI.Service
 
             return serviceResponse;
         }
-        
-        
+
+        public ServiceResponse<List<Character>> UpdateCharacter(Character character)
+        {
+            var serviceResponse = new ServiceResponse<List<Character>>();
+            var oldCharacter = _characterList.FirstOrDefault(c => c.Id == character.Id);
+
+            if (oldCharacter != null)
+            {
+                _characterList.RemoveAll(x => x.Id == character.Id);
+            }
+
+            _characterList.Add(character);
+
+            serviceResponse.Data = _characterList;
+
+            return serviceResponse;
+        }
+
+
     }
 }

@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "lv6z/gSyK1IXXu3q9qYSWzqwJqjavoks+B89xGARjPgAM2lGe002YSlAmfxWvyA9AHKRe3NZa2+ckKhN9O8kMg==",
+  "dgSpecHash": "sc5Ehgs0Jjw1bZz437Q/qDGrI7Pd+OVvr0EYvanl72vs62crfsyFs88vVLHESpypzf+ouX5Lv3dEN9m4yyggbg==",
   "success": true,
-  "projectFilePath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj",
+  "projectFilePath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj",
   "expectedPackageFiles": [
+    "/home/knoldus/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/knoldus/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/knoldus/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/moq/4.20.70/moq.4.20.70.nupkg.sha512",
     "/home/knoldus/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/home/knoldus/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/home/knoldus/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

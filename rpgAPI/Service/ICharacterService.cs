@@ -13,6 +13,8 @@ namespace rpgAPI.Service
         ServiceResponse<List<Character>> AddCharacter(Character newCharacter);
 
         ServiceResponse<Character> GetCharacterById(int id);
-        
+
+        ServiceResponse<List<Character>> UpdateCharacter(Character character);
+
     }
 }
