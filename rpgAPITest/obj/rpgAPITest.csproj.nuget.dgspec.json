@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPITest/rpgAPITest.csproj": {}
+    "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPITest/rpgAPITest.csproj": {}
   },
   "projects": {
-    "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj": {
+    "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj",
+        "projectUniqueName": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj",
         "projectName": "rpgAPI",
-        "projectPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj",
+        "projectPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj",
         "packagesPath": "/home/knoldus/.nuget/packages/",
-        "outputPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/obj/",
+        "outputPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/knoldus/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -70,14 +74,14 @@
         }
       }
     },
-    "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPITest/rpgAPITest.csproj": {
+    "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPITest/rpgAPITest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPITest/rpgAPITest.csproj",
+        "projectUniqueName": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPITest/rpgAPITest.csproj",
         "projectName": "rpgAPITest",
-        "projectPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPITest/rpgAPITest.csproj",
+        "projectPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPITest/rpgAPITest.csproj",
         "packagesPath": "/home/knoldus/.nuget/packages/",
-        "outputPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPITest/obj/",
+        "outputPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPITest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/knoldus/.nuget/NuGet/NuGet.Config"
@@ -92,8 +96,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj": {
-                "projectPath": "/home/knoldus/Desktop/dotnet_assessmnt4/rpgAPI/rpgAPI.csproj"
+              "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj": {
+                "projectPath": "/home/knoldus/Desktop/dotnet/dotnet assessment 4_ Mustafizur_Rahman/dotnet_assessment4_mustafizur_rahman/rpgAPI/rpgAPI.csproj"
               }
             }
           }
@@ -108,9 +112,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Autofixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
