@@ -85,7 +85,7 @@ namespace rpgAPI.Controller.Tests
             mockService.Setup(x => x.GetCharacterById(0)).Returns(serviceResponse);
 
             var charController = new CharacterController(mockService.Object);
-
+            
             var result = charController.GetId(0);
 
             // Assert
