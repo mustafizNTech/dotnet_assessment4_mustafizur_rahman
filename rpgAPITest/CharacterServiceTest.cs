@@ -71,7 +71,7 @@ public class CharacterServiceTest{
     {
         //Arrange
         var characterService = new CharacterService();
-        var character = CharacterGenerator.GetValidCharacter(); // Helper method to generate a valid character. Sometimes AutoFixture can be avoided for simplicity. Or if we want to test a specific scenario.
+        var character = CharacterGenerator.GetValidCharacter(); // Helper method to generate a valid character.
 
         //Act
         var result = characterService.AddCharacter(character);
