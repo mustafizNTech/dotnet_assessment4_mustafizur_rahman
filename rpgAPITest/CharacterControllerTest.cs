@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using AutoFixture;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using rpgAPI.Helpers;
 using rpgAPI.Model;
-using rpgAPI.Service; // You'll need to add this NuGet package for mocking
+using rpgAPI.Service;
 
 namespace rpgAPI.Controller.Tests
 {
@@ -168,7 +165,6 @@ namespace rpgAPI.Controller.Tests
             var result = characterController.GetId(character.Id);
 
             //Assert
-            // var okResult = result.Result as NotFoundObjectResult;
             var okResult = (ObjectResult)result.Result;
             var response = okResult!.Value as ServiceResponse<Character>;
             Assert.NotNull(okResult);
