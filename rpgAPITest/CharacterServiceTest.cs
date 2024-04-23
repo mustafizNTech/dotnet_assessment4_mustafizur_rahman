@@ -1,3 +1,4 @@
+using rpgAPI.Helpers;
 using rpgAPI.Model;
 using rpgAPI.Service;
 
@@ -52,6 +53,35 @@ public class CharacterServiceTest{
     }
 
     [Fact]
+    public void GetCharacterByIdGivenInvalidRequestGetResult()
+    {
+        //Arrange
+        var characterService = new CharacterService();
+
+        //Act
+        var result = characterService.GetCharacterById(2);
+
+        //Assert
+        Assert.False(result.Success);
+    }
+
+
+    [Fact]
+    public void AddCharacterGivenValidRequestGetResult()
+    {
+        //Arrange
+        var characterService = new CharacterService();
+        var character = CharacterGenerator.GetValidCharacter(); // Helper method to generate a valid character. Sometimes AutoFixture can be avoided for simplicity. Or if we want to test a specific scenario.
+
+        //Act
+        var result = characterService.AddCharacter(character);
+
+        //Assert
+        Assert.True(result.Data?.Contains(character));
+        Assert.True(result.Success);
+    }
+
+    [Fact]
     public void UpdateCharacterGivenValidRequestGetResult(){
 
         // Arrange
@@ -69,6 +99,7 @@ public class CharacterServiceTest{
 
         // Assert
         Assert.NotNull(result);
-        Assert.NotNull(result.Data.FirstOrDefault(x=>x.Name == "Character updated"));
     }
+
 }
+

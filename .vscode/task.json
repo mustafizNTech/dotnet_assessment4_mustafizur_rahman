@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Generate coverage stats",
+            "command": "reportgenerator",
+            "type": "shell",
+            "args": [
+                "-reports:${workspaceFolder}/rpgAPITest/lcov.info",
+                "-targetdir:${workspaceFolder}/rpgAPITest/covstats"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
