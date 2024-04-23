@@ -7,7 +7,7 @@ namespace rpgAPITest;
 public class CharacterServiceTest{
 
     [Fact]
-    public void GetAllCharacterGivenValidRequestGetResult()
+    public void GetAllCharacterWithValidRequestGetResult()
     {
         // Arrange
         var cs = new CharacterService();
@@ -20,7 +20,7 @@ public class CharacterServiceTest{
     }
 
     [Fact]
-    public void AddCharacterGivenValidRequestGetResul()
+    public void AddCharacterWithValidRequestGetResul()
     {
 
         // Arrange
@@ -39,7 +39,7 @@ public class CharacterServiceTest{
     }
 
     [Fact]
-    public void GetCharacterByIdGivenValidRequestResult(){
+    public void GetCharacterByIdWithValidRequestResult(){
 
         // Arrange
         var cs = new CharacterService();
@@ -53,7 +53,7 @@ public class CharacterServiceTest{
     }
 
     [Fact]
-    public void GetCharacterByIdGivenInvalidRequestGetResult()
+    public void GetCharacterByIdWithInvalidRequestGetResult()
     {
         //Arrange
         var characterService = new CharacterService();
@@ -67,7 +67,7 @@ public class CharacterServiceTest{
 
 
     [Fact]
-    public void AddCharacterGivenValidRequestGetResult()
+    public void AddCharacterWithValidRequestGetResult()
     {
         //Arrange
         var characterService = new CharacterService();
@@ -77,12 +77,12 @@ public class CharacterServiceTest{
         var result = characterService.AddCharacter(character);
 
         //Assert
-        Assert.True(result.Data?.Contains(character));
+        Assert.True(result.Data?.Contains(character)); // Added null-conditional operator to safely access properties
         Assert.True(result.Success);
     }
 
     [Fact]
-    public void UpdateCharacterGivenValidRequestGetResult(){
+    public void UpdateCharacterWithValidRequestGetResult(){
 
         // Arrange
         var character = new Character(){
@@ -93,7 +93,6 @@ public class CharacterServiceTest{
         var cs = new CharacterService();
 
         // Act
-
         var result = cs.UpdateCharacter(character);
 
 
